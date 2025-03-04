@@ -1,13 +1,12 @@
 """
 API for :ref:`custom-comment-app-api`
 """
-default_app_config = "fluent_comments.apps.FluentCommentsApp"
 
 form_class = None
 model_class = None
 
 # following PEP 440
-__version__ = "3.0"
+__version__ = "3.0.1"
 
 
 def get_model():
